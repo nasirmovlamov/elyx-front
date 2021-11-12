@@ -1,0 +1,39 @@
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.header-block{
+    width: $header-width;
+    height:$header-height;
+    margin: auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top:0px;
+    z-index: 2;
+}
+
+.header-list{
+    display: flex;
+    column-gap: 64px;
+    z-index: 2;
+    li{
+        a{
+            color: inherit;
+            text-decoration: none;
+            z-index: 2;
+        }
+        font-size: $f14;
+        list-style: none;
+        text-decoration: none;
+    }
+}
+
+

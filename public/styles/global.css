@@ -1,0 +1,393 @@
+input, button, select, a, h1, h2, h3, h4, h5, h6, p, li, ul, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+input:focus, button:focus, select:focus, a:focus, h1:focus, h2:focus, h3:focus, h4:focus, h5:focus, h6:focus, p:focus, li:focus, ul:focus, body:focus {
+  outline: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+}
+
+.header-block {
+  width: 1128px;
+  height: 48px;
+  margin: auto;
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+
+.header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 64px;
+          column-gap: 64px;
+  z-index: 2;
+}
+
+.header-list li {
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header-list li a {
+  color: inherit;
+  text-decoration: none;
+  z-index: 2;
+}
+
+@-webkit-keyframes Circle1AnimationWave {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  5% {
+    -webkit-transform: translate(150px, -150px);
+            transform: translate(150px, -150px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  10% {
+    -webkit-transform: translate(-200px, -200px);
+            transform: translate(-200px, -200px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  20% {
+    -webkit-transform: translate(200px, -220px);
+            transform: translate(200px, -220px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  25% {
+    -webkit-transform: translate(190px, -270px);
+            transform: translate(190px, -270px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  35% {
+    -webkit-transform: translate(350px, -530px);
+            transform: translate(350px, -530px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  40% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(450px, -450px);
+            transform: translate(450px, -450px);
+  }
+  45% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(950px, -550px);
+            transform: translate(950px, -550px);
+  }
+  50% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(650px, -350px);
+            transform: translate(650px, -350px);
+  }
+  60% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(1050px, -330px);
+            transform: translate(1050px, -330px);
+  }
+  70% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(950px, 300px);
+            transform: translate(950px, 300px);
+  }
+  80% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(550px, -100px);
+            transform: translate(550px, -100px);
+  }
+  90% {
+    -webkit-transform: translate(250px, 400px);
+            transform: translate(250px, 400px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+
+@keyframes Circle1AnimationWave {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  5% {
+    -webkit-transform: translate(150px, -150px);
+            transform: translate(150px, -150px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  10% {
+    -webkit-transform: translate(-200px, -200px);
+            transform: translate(-200px, -200px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  20% {
+    -webkit-transform: translate(200px, -220px);
+            transform: translate(200px, -220px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  25% {
+    -webkit-transform: translate(190px, -270px);
+            transform: translate(190px, -270px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  35% {
+    -webkit-transform: translate(350px, -530px);
+            transform: translate(350px, -530px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  40% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(450px, -450px);
+            transform: translate(450px, -450px);
+  }
+  45% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(950px, -550px);
+            transform: translate(950px, -550px);
+  }
+  50% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(650px, -350px);
+            transform: translate(650px, -350px);
+  }
+  60% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(1050px, -330px);
+            transform: translate(1050px, -330px);
+  }
+  70% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(950px, 300px);
+            transform: translate(950px, 300px);
+  }
+  80% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(550px, -100px);
+            transform: translate(550px, -100px);
+  }
+  90% {
+    -webkit-transform: translate(250px, 400px);
+            transform: translate(250px, 400px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+
+@-webkit-keyframes Circle2AnimationWave {
+  0% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(1050px, -330px);
+            transform: translate(1050px, -330px);
+  }
+  10% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(950px, 300px);
+            transform: translate(950px, 300px);
+  }
+  20% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(550px, -100px);
+            transform: translate(550px, -100px);
+  }
+  30% {
+    -webkit-transform: translate(250px, 400px);
+            transform: translate(250px, 400px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  40% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  50% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  55% {
+    -webkit-transform: translate(150px, -150px);
+            transform: translate(150px, -150px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  60% {
+    -webkit-transform: translate(-200px, -200px);
+            transform: translate(-200px, -200px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  70% {
+    -webkit-transform: translate(200px, -220px);
+            transform: translate(200px, -220px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  75% {
+    -webkit-transform: translate(190px, -270px);
+            transform: translate(190px, -270px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  85% {
+    -webkit-transform: translate(350px, -530px);
+            transform: translate(350px, -530px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  90% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(450px, -450px);
+            transform: translate(450px, -450px);
+  }
+  100% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(1050px, -330px);
+            transform: translate(1050px, -330px);
+  }
+}
+
+@keyframes Circle2AnimationWave {
+  0% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(1050px, -330px);
+            transform: translate(1050px, -330px);
+  }
+  10% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(950px, 300px);
+            transform: translate(950px, 300px);
+  }
+  20% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(550px, -100px);
+            transform: translate(550px, -100px);
+  }
+  30% {
+    -webkit-transform: translate(250px, 400px);
+            transform: translate(250px, 400px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  40% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  50% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  55% {
+    -webkit-transform: translate(150px, -150px);
+            transform: translate(150px, -150px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  60% {
+    -webkit-transform: translate(-200px, -200px);
+            transform: translate(-200px, -200px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  70% {
+    -webkit-transform: translate(200px, -220px);
+            transform: translate(200px, -220px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  75% {
+    -webkit-transform: translate(190px, -270px);
+            transform: translate(190px, -270px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  85% {
+    -webkit-transform: translate(350px, -530px);
+            transform: translate(350px, -530px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  90% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(450px, -450px);
+            transform: translate(450px, -450px);
+  }
+  100% {
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translate(1050px, -330px);
+            transform: translate(1050px, -330px);
+  }
+}
+/*# sourceMappingURL=global.css.map */
