@@ -1,6 +1,7 @@
 .button1{
     width: auto;
-    padding: 12px 24px;
+    width: 195px;
+    padding: 15px 19px;
     border-radius: 12px;
     background-color: $blue1;
     color: white;
@@ -10,6 +11,7 @@
     column-gap: 19.33px;
     transition: 0.5s;
     font-family: m;
+    height: 48px;
     &:hover{
         background-color: $blue2;
 

@@ -1,6 +1,7 @@
 .button1 {
   width: auto;
-  padding: 12px 24px;
+  width: 195px;
+  padding: 15px 19px;
   border-radius: 12px;
   background-color: #0076FC;
   color: white;
@@ -18,6 +19,7 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-family: m;
+  height: 48px;
 }
 
 .button1:hover {

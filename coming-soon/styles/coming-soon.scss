@@ -158,14 +158,14 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 400px;
+    left: 449px;
     top: 10px;
     row-gap: 24px;
     width: auto;
     img{
         &:nth-child(2)
         {
-            margin-left: -24px;
+            margin-left: -30px;
         }
 
     }
@@ -176,8 +176,8 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 50px;
-    top: 250px;
+    left: 100px;
+    top: 350px;
     row-gap: 24px;
     width: auto;
 }
@@ -186,8 +186,8 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    left: 85px;
-    top: 340px;
+    left: 140px;
+    top: 440px;
     column-gap: 24px;
     width: auto;
     img {
@@ -204,14 +204,14 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    right: 100px;
-    top: 200px;
+    right: 180px;
+    top: 220px;
     row-gap: 24px;
     width: auto;
     img{
         &:nth-child(4) , &:nth-child(5)
         {
-            margin-left: -24px;
+            margin-left: -32px;
         }
 
     } 
@@ -225,7 +225,7 @@
     flex-direction: column;
     position: absolute;
     bottom: 60px;
-    left: 100px;
+    left: 230px;
     row-gap: 24px;
     width: auto;
     img{
@@ -244,7 +244,7 @@
     flex-direction: row;
     position: absolute;
     bottom: 40px;
-    left: 130px;
+    left: 270px;
     column-gap: 24px;
     width: auto;
     img{
@@ -262,7 +262,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    right: 60px;
+    right: 110px;
     bottom: 70px;
     row-gap: 24px;
     width: auto;
@@ -281,14 +281,14 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    left: calc(50% + 250px);
-    bottom: 40px;
+    left: calc(50% + 110px);
+    bottom: 130px;
     column-gap: 24px;
     width: auto;
     img{
-        &:nth-child(3) 
+        &:nth-child(4) 
         {
-            margin-top: 14px;
+            margin-top: 24px;
         }
 
     } 
