@@ -1,13 +1,13 @@
 .button1 {
   width: auto;
   width: 195px;
-  padding: 15px 19px;
   border-radius: 12px;
   background-color: #0076FC;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 14px 19px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20,6 +20,7 @@
   transition: 0.5s;
   font-family: m;
   height: 48px;
+  font-size: 16px;
 }
 
 .button1:hover {
