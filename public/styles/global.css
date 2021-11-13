@@ -1,66 +1,45 @@
-input, button, select, a, h1, h2, h3, h4, h5, h6, p, li, ul, body {
-  margin: 0px;
-  padding: 0px;
-}
-
-input:focus, button:focus, select:focus, a:focus, h1:focus, h2:focus, h3:focus, h4:focus, h5:focus, h6:focus, p:focus, li:focus, ul:focus, body:focus {
-  outline: none;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-header {
-  width: 100%;
+.button1 {
+  width: auto;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background-color: #0076FC;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 2;
-}
-
-.header-block {
-  width: 1128px;
-  height: 48px;
-  margin: auto;
-  margin-top: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  top: 0px;
-  z-index: 2;
+  -webkit-column-gap: 19.33px;
+          column-gap: 19.33px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.header-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-gap: 64px;
-          column-gap: 64px;
-  z-index: 2;
+.button1:hover {
+  background-color: #1662D1;
 }
 
-.header-list li {
-  font-size: 14px;
-  list-style: none;
-  text-decoration: none;
+input, button, select, a, h1, h2, h3, h4, h5, h6, p, li, ul, body {
+  margin: 0px;
+  padding: 0px;
+  border: none;
 }
 
-.header-list li a {
-  color: inherit;
-  text-decoration: none;
-  z-index: 2;
+input:focus, button:focus, select:focus, a:focus, h1:focus, h2:focus, h3:focus, h4:focus, h5:focus, h6:focus, p:focus, li:focus, ul:focus, body:focus {
+  outline: none;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @-webkit-keyframes Circle1AnimationWave {
@@ -388,6 +367,63 @@ header {
             animation-timing-function: linear;
     -webkit-transform: translate(1050px, -330px);
             transform: translate(1050px, -330px);
+  }
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+}
+
+.header-block {
+  width: 1128px;
+  height: 48px;
+  margin: auto;
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+
+.header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 64px;
+          column-gap: 64px;
+  z-index: 2;
+}
+
+.header-list li {
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header-list li a {
+  color: inherit;
+  text-decoration: none;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1100px) {
+  .header-block {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=global.css.map */

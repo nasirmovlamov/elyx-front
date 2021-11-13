@@ -122,7 +122,7 @@
 .circle1{
 
     position: fixed;
-    filter: blur(90px);
+    filter: blur(130px);
     animation: Circle1AnimationWave 100s infinite ease;
 }
 
@@ -136,7 +136,7 @@
     position: fixed;
     left: -40px;
     bottom: -80px;
-    filter: blur(90px);
+    filter: blur(130px);
 }
 
 
@@ -196,5 +196,173 @@
 
 
 .x-icons-right-middle{
-    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    row-gap: 24px;
+    width: auto;
+    img{
+        &:nth-child(4) , &:nth-child(5)
+        {
+            margin-left: -24px;
+        }
+
+    } 
 }
+
+
+
+.x-icons-left-corner1
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+    row-gap: 24px;
+    width: auto;
+    img{
+        &:nth-child(4) , &:nth-child(5)
+        {
+            margin-left: -24px;
+        }
+
+    } 
+
+}
+
+
+.x-icons-left-corner2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 40px;
+    left: 130px;
+    column-gap: 24px;
+    width: auto;
+    img{
+        &:nth-child(4) , &:nth-child(5)
+        {
+            margin-left: -24px;
+        }
+
+    }    
+}
+
+
+
+.x-icons-middle-corner{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 60px;
+    bottom: 70px;
+    row-gap: 24px;
+    width: auto;
+    img{
+        &:nth-child(3) 
+        {
+            margin-left: 24px;
+        }
+
+    } 
+}
+
+
+.x-icons-right-corner
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: calc(50% + 250px);
+    bottom: 40px;
+    column-gap: 24px;
+    width: auto;
+    img{
+        &:nth-child(3) 
+        {
+            margin-top: 14px;
+        }
+
+    } 
+}
+
+
+
+
+.welcome-download{
+    margin-top: 130px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1100px) {
+    .welcome-block{
+        width: $welcome-block-width-mobile
+    }
+    .x-icons-left-corner1, .x-icons-left-corner2 , .x-icons-left-middle1 , .x-icons-left-middle2 , .x-icons-middle-corner , .x-icons-right-corner , .x-icons-right-middle ,.x-icons-top{
+        display:none;
+    }
+    .welcome-main-title{
+        font-size: $f28;
+        line-height: 40px; 
+    }
+    .welcome-block{
+        column-gap: 8px;
+    }
+    .welcome-count-block{
+        width: 64px;
+        height: 72px;
+        h6{
+
+        }
+        div{
+            font-size: $f24;
+        }
+    }
+    .welcome-download{
+        margin-top: 180px;
+    }
+    .x-icons-mobile-top{
+        top: 9px;
+        right: 45%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        row-gap: 32px;
+        img {
+            &:last-child{
+                margin-left: 20px;
+            }
+        }
+    }
+    .x-icons-mobile-right{
+        bottom: 240px;
+        right: 20px;
+        display: flex;
+        position: absolute;
+        column-gap: 27px;
+        
+    }
+    .x-icons-mobile-left{
+        bottom: 160px;
+        left: 20px;
+        display: flex;
+        position: absolute;
+        column-gap: 24px;
+        img {
+            &:last-child{
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+
