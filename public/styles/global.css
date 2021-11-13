@@ -17,10 +17,26 @@
           column-gap: 19.33px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  font-family: m;
 }
 
 .button1:hover {
   background-color: #1662D1;
+}
+
+@font-face {
+  font-family: 'r';
+  src: url("/public/fonts/Manrope-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'm';
+  src: url("/public/fonts/Manrope-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'b';
+  src: url("/public/fonts/Manrope-Bold.ttf");
 }
 
 input, button, select, a, h1, h2, h3, h4, h5, h6, p, li, ul, body {
@@ -40,6 +56,7 @@ button, a {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: r;
 }
 
 @-webkit-keyframes Circle1AnimationWave {
